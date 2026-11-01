@@ -30,7 +30,7 @@
 <body>
 
 <h1>Privacy Policy — Puzzle Alarm</h1>
-<p class="sub">Last updated: 13 October 2026</p>
+<p class="sub">Last updated: 1 November 2026</p>
 
 <div class="box">
   <p><strong>The short version.</strong> Puzzle Alarm does not collect anything. Your
@@ -55,6 +55,8 @@
   <li>The daily review time, if you switch that reminder on</li>
   <li>Water reminders — the window you chose and how often to be nudged</li>
   <li>Whether the one-time unlock has been purchased</li>
+  <li>A wake code — a random value generated on your phone, which the app turns
+      into the QR square you can print to stop an alarm by scanning it</li>
 </ul>
 <p>
   None of this is transmitted off your device by the app. There is no server behind
@@ -67,7 +69,9 @@
   <li>No analytics, crash reporting or usage tracking</li>
   <li>No advertising and no advertising identifiers</li>
   <li>No location</li>
-  <li>No contacts, photos, files, microphone or camera</li>
+  <li>No contacts, photos, files or microphone</li>
+  <li>No photographs. The camera is used only to look for your wake code while an
+      alarm is ringing, and only if you switched that on — see the table below</li>
   <li>Nothing is sold or shared with third parties, because nothing is collected</li>
 </ul>
 
@@ -82,6 +86,10 @@
   <tr><td>Run at startup</td><td>Android forgets scheduled alarms when the phone restarts, so the app re-arms them on boot.</td></tr>
   <tr><td>Physical activity (optional)</td><td>Only used for the “walk a number of steps to stop the alarm” option. Steps are counted on the device while the alarm is ringing, used to compare against your target, and never stored or sent anywhere. Decline it and the app falls back to the accelerometer; the rest of the app works regardless.</td></tr>
   <tr><td>Ignore battery optimisation (optional)</td><td>Offered, not required. Without it Android may delay an alarm by several minutes.</td></tr>
+  <tr><td>Camera (optional)</td><td>Only for the “scan a code to stop” option, and only
+      while an alarm is actually ringing. Each frame is examined on the device for your
+      wake code and then discarded — nothing is photographed, recorded, saved or sent.
+      Decline it and the alarm falls back to the puzzle, so it can still be stopped.</td></tr>
   <tr><td>Internet &amp; network state</td><td>Not used by the app itself. These come from Google Play Billing, which needs them to verify a purchase.</td></tr>
 </table>
 
